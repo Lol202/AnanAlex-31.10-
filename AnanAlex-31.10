@@ -1,0 +1,6 @@
+x = input()
+y = list(x)
+z = 0
+for i in y:
+    z += int(i)
+print(z)
