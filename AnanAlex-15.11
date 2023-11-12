@@ -1,0 +1,12 @@
+def ch(n):
+    for j in range(4):
+        if (int(n[j]) % 2 == 0) ^ (int(n[j + 1]) % 2 == 1):
+            return False
+    return True
+jk = int(input())
+count = 0
+for i in range(jk):
+    nu = input()
+    if ch(nu):
+        count += 1
+print(count)
