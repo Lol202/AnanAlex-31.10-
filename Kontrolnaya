@@ -1,0 +1,4 @@
+n = input()
+b = input()
+a = int(n, 36) + int(b, 36)
+print(a)
