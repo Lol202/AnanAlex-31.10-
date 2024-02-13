@@ -1,0 +1,10 @@
+def rem():
+    list = []
+    i=int(input("Количество элементов в списке"))
+    print("Введите элементы, разделя через enter")
+    for x in range(0,i):
+        a=int(input())
+        list.append(a)
+    ii=int(input("Убираемый элемент"))
+    return [x for x in list if x != ii]
+print(rem())
