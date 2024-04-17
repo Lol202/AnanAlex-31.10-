@@ -1,0 +1,11 @@
+def func():
+    list = []
+    n = int(input())
+    for i in range(n):
+        b = input()
+        list.append(b)
+    result = sorted(list, key=len)
+    return result
+finalresult = func()
+print(finalresult)
+# Где n - колво элементов в списке. Можно сделать до стоп-символа, но в задании этого нет поэтому сделал так
